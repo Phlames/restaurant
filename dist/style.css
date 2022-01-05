@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: peachpuff;
+    margin: 0px;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(43, 104, 184);
+}
+#navBar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: skyblue;
+    gap: 10px;
+    border-bottom: 2px solid red;
+}
+.navBtn {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.activeBtn {
+    background-color: rgb(70, 132, 226);
+}
+#inner {
+    background-color: peachpuff;
+    margin-left: 100px;
+}
+.covid {
+    background-color: rgb(250, 64, 64);
+    width: max-content;
+}
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.item{ 
+    display: flex;
+    max-height: 150px;
+    margin-bottom: 50px;
+}
+.card-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 8px;
+    border-radius: 5px;;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    position: relative;
+}
+input {
+    width: 500px;
+}
+#commentField {
+    height: 200px;
+}
+#submitButton {
+    display: flex;
+    width:max-content;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: slateblue;
+    color: white;
+    border-top: 2px solid red;
+}
